@@ -1,0 +1,20 @@
+.gliggy-animation-1{animation:come 3s;-moz-animation:come 3s;-webkit-animation:come 3s;}
+@-moz-keyframes come{
+    from{transition-duration:3s;display:none;opacity:0;}to{display:initial;}
+}
+@-webkit-keyframes come{
+    from{transition-duration:3s;display:none;opacity:0}to{display:initial;}
+}
+@keyframes come{
+    from{transition-duration:3s;display:none;opacity:0}to{display:initial;}
+}
+.gliggy-animation-from-left{-moz-animation: comefromleft 3s;-webkit-animation: comefromleft 3s;animation:comefromleft 3s;}
+@-moz-keyframes comefromleft{
+    from{transition-duration:3s;transform:translate(-100px,-90px);}to{display:initial;}
+}
+@-webkit-keyframes comefromleft{
+    from{transition-duration:3s;transform:translate(-100px,-90px);}to{display:initial;}
+}
+@keyframes comefromleft{
+    from{transition-duration:3s;transform:translate(-100px,-90px);}to{display:initial;}
+}
